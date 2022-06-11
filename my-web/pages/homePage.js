@@ -1,8 +1,6 @@
-import React from "react";
-import Image from "next/image";
-import heroImage from "../public/images/heroimage.jpg";
-import { Element } from "react-scroll";
-
+import { Element } from 'react-scroll';
+import heroImage from '../public/images/profile.jpeg';
+import Image from 'next/image';
 function Home() {
 	return (
 		<Element id="home" name="home">
